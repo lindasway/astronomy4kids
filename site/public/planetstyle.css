@@ -1,0 +1,8 @@
+header {
+	padding: 1px 200px;
+}
+body {
+	background-image: url("images/spaceBakground.jpg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
