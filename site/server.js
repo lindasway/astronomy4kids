@@ -129,3 +129,34 @@ function defineTypes() {
     }
     return types;
 }
+function myFunction() {
+    var person = prompt("Please enter your first and last name:", "");
+    if (person == "")
+    {
+        alert("You must enter your name ");
+        return;
+    }
+    var username = prompt("Username:", "");
+    if (username.length <= 5)
+    {
+        alert("Username needs to be longer than 5 characters");
+        return;
+    }
+    if (/^[a-zA-Z0-9- ]*$/.test(username) == false)
+    {
+        alert("Username cannot contain special letters");
+        return;
+    }
+    var password = prompt("Password:", "");
+    if (password.length <= 5)
+    {
+        alert("Password needs to be longer than 5 characters");
+        return;
+    }
+    if (/^[a-zA-Z0-9- ]*$/.test(password) == false)
+    {
+        alert("Password cannot contain special letters");
+        return;
+    }
+    alert("Account Created!");
+}

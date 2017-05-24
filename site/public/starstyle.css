@@ -1,8 +1,37 @@
-header {
-	padding: 1px 200px;
-}
 body {
 	background-image: url("images/spaceBackground.jpg");
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+    padding: 16px 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:300%;
+    font-style: arial;
+    color: purple;
+    border-left: 1px solid purple;
+   	text-shadow: -1px 0 aquamarine, 0 1px aquamarine, 1px 0 aquamarine, 0 -1px aquamarine;
+
+}
+h1 {
+	text-align: center;
+	font-size: 400%;
+	font-style: arial;
+	color: aquamarine;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
