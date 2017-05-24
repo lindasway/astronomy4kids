@@ -1,8 +1,64 @@
-header {
-	padding: 1px 200px;
-}
 body {
 	background-image: url("images/spaceBackground.jpg");
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+h1 {
+	text-align: center;
+	font-size: 400%;
+	font-style: arial;
+	color: papayawhip;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+	text-align: center;
+	font-size: 250%;
+	font-style: arial;
+	color: papayawhip;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+a {
+	padding: 50px 175px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+li {
+    float: left;
+    padding: 16px 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:300%;
+    font-style: arial;
+    color: purple;
+    border-left: 1px solid purple;
+   	text-shadow: -1px 0 aquamarine, 0 1px aquamarine, 1px 0 aquamarine, 0 -1px aquamarine;
+
+}
+button {
+    background-color: purple;
+    color: white;
+    padding: 14px 20px;
+    margin: 36px 0px;
+    border: 1px solid black;
+    cursor: pointer;
+    float: right;
+}
+input[type=text], input[type=password] {
+	padding: 12px 20px;
+	float:right;
+	margin: 36px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
